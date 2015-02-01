@@ -1,0 +1,30 @@
+/* Homepage */
+.home .row-highlight {
+  background: url(/images/learning_0.jpg) 0 50% fixed repeat;
+  margin-top: -21px;
+  min-height: 344px;
+}
+.home .row-highlight .jumbotron {
+  background: none;
+}
+.home .row-highlight .jumbotron .btn {
+  margin-top: 16px;
+}
+
+
+/* Yeti customizations */
+.home .row-highlight .jumbotron h1 {
+  font-size: 35px;
+}
+.home .row-highlight .jumbotron h1,
+.home .row-highlight .jumbotron h2 {
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+}
+.home .row-highlight .jumbotron p.lead {
+  color: #fff;
+  /*color: #222;*/
+  font-weight: 500;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+}
