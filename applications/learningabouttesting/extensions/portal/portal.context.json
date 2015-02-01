@@ -2,16 +2,9 @@
   "title" : "Portal context",
   "description" : "Portal context",
   "conditions" : {
-    "path" : ["/home"]
+    "siteWide": true
   },
   "reactions" : {
-    "layout" : "one-column",
-    "theme" : "flatly",
-    "panel" : {
-      "highlight" : [{
-        "name" : "highlight",
-        "weight" : 0
-      }]
-    }
+    "theme" : "flatly"
   }
 }

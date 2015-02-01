@@ -1,6 +1,6 @@
 {
   "title" : "Hightlight panel",
   "description" : "Highlight panel",
-  "template" : "/templates/portal-highlight.html",
+  "template" : "/templates/home-highlight.html",
   "bare" : true
 }

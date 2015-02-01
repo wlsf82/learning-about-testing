@@ -1,0 +1,8 @@
+{
+  "title": "Home extension",
+  "description": "Home",
+  "dependencies" : [
+    "context",
+    "panel"
+  ]
+}

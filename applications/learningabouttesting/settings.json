@@ -5,7 +5,7 @@
     "name": "Learning About Testing"
   },
   "extensions": {
-    "main-menu" : {},
-    "portal": {}
+    "portal": {},
+    "home" : {}
   }
 }

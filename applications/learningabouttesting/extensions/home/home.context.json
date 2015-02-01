@@ -1,0 +1,16 @@
+{
+  "title" : "Home context",
+  "description" : "Home context",
+  "conditions" : {
+    "path" : ["/home"]
+  },
+  "reactions" : {
+    "layout" : "one-column",
+    "panel" : {
+      "highlight" : [{
+        "name" : "highlight",
+        "weight" : 0
+      }]
+    }
+  }
+}
