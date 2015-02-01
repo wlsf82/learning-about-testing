@@ -1,0 +1,7 @@
+{
+  "type": "list",
+  "title": "Images",
+  "description": "The images page.",
+  "itemType": "content",
+  "path": "/media/images"
+}

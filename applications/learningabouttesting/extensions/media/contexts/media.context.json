@@ -1,0 +1,21 @@
+{
+  "title": "Media pages",
+  "description": "Media pages context.",
+  "weight": -1,
+  "conditions": {
+    "path": [
+      "/media",
+      "/media/*"
+    ]
+  },
+  "reactions": {
+    "panel": {
+      "content": [
+        {
+          "name": "navigation-media",
+          "weight": -1
+        }
+      ]
+    }
+  }
+}

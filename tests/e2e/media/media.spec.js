@@ -25,7 +25,15 @@ describe ('Media', function () {
     browser.driver.sleep(3000);
 
     expect(mediaTitle.isPresent()).toBe(true);
-    expect(mediaTitle.getText()).toEqual('Media');
+    expect(mediaTitle.getText()).toEqual('Videos');
   });
 
+  it ('should have tabs with different types of media into the media page', function () {
+    var mainMenu = element(by.css('.navbar-left')),
+        mediaLink = mainMenu.element(by.cssContainingText('a', 'Media')),
+        mediaTab = element(by.css('.nav-tabs'));
+
+    mediaLink.click();
+    expect(mediaTab.isPresent()).toBe(true);
+  });
 });

@@ -1,0 +1,24 @@
+{
+  "title": "Media",
+  "classes": [
+    "nav-tabs"
+  ],
+  "items": [
+    {
+      "title": "Videos",
+      "url": "/media"
+    },
+    {
+      "title": "Podcasts",
+      "url": "/media/podcasts"
+    },
+    {
+      "title": "eBooks and articles",
+      "url": "/media/text-files"
+    },
+    {
+      "title": "images",
+      "url": "/media/images"
+    }
+  ]
+}
