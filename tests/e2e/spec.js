@@ -1,6 +1,6 @@
 // spec.js
-// These are the tests for the Learning About Testing learning portal
-// The bellow tests will be uses as user acceptance tests
+// These are the tests for the Learning About Testing Portal
+// The bellow tests will be used as user acceptance tests
 
 describe ('learning about testing portal', function () {
 
