@@ -3,6 +3,7 @@
   "description": "Home",
   "dependencies" : [
     "context",
-    "panel"
+    "panel",
+    "page"
   ]
 }
