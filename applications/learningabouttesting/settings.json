@@ -1,0 +1,8 @@
+{
+  "database": "mongodb://localhost/learning-about-testing",
+  "sessionSecret": "ujv2IxELpAUecUrBymKdmX4mx+ERWe7ZIeT4tAroBww=",
+  "application": {
+    "name": "Learning About Testing"
+  },
+  "extensions": {}
+}
