@@ -9,13 +9,6 @@ describe ('learning about testing portal', function () {
     expect(browser.getTitle()).toEqual('Learning About Testing');
   });
 
-  it ('should have a home link in the top navigation bar', function () {
-    var mainMenu = element(by.css('.navbar-left'));
-
-    expect(mainMenu.isPresent()).toBe(true);
-    expect(mainMenu.getText()).toEqual('Home');
-  });
-
   // it ('should verify the applied theme', function () {
   //   var generalContext = element(by.css('.ng-scope'));
   //
