@@ -16,9 +16,10 @@ describe ('learning about testing portal', function () {
     expect(mainMenu.getText()).toEqual('Home');
   });
 
-  it ('should verify the applied theme', function () {
-    var theme = element(by.css('.theme'))
-
-    expect(theme.isPresent()).toBe(true);
-  })
+  // it ('should verify the applied theme', function () {
+  //   var generalContext = element(by.css('.ng-scope'));
+  //
+  //   expect(generalContext.isPresent()).toBe(true);
+  //   expect(generalContext.getAttribute('theme')).toBe('flatly');
+  // });
 });

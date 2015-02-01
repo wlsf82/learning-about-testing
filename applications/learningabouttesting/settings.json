@@ -4,5 +4,8 @@
   "application": {
     "name": "Learning About Testing"
   },
-  "extensions": {"main-menu" : {}}
+  "extensions": {
+    "main-menu" : {},
+    "portal": {}
+  }
 }

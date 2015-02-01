@@ -1,0 +1,8 @@
+{
+  "title" : "Portal extension",
+  "description" : "Portal",
+  "dependencies" : [
+    "context",
+    "panel"
+  ]
+}
