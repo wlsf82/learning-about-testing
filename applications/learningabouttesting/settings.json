@@ -6,6 +6,7 @@
   },
   "extensions": {
     "portal": {},
-    "home" : {}
+    "home" : {},
+    "media": {}
   }
 }

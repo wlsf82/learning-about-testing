@@ -1,0 +1,9 @@
+{
+  "title": "Media extension",
+  "description": "Media",
+  "dependencies" : [
+    "context",
+    "panel",
+    "page"
+  ]
+}

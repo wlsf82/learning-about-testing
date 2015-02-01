@@ -5,5 +5,9 @@ portal.navigation = function (navigations, callback) {
     "title" : "Home",
     "url" : "/"
   });
+  navigations['main'].items.push({
+    "title" : "Media",
+    "url" : "/media"
+  });
   callback();
 }

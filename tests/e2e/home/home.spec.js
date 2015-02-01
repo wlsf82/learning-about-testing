@@ -10,7 +10,7 @@ describe ('Home', function () {
     var mainMenu = element(by.css('.navbar-left'));
 
     expect(mainMenu.isPresent()).toBe(true);
-    expect(mainMenu.getText()).toEqual('Home');
+    expect(mainMenu.getText()).toContain('Home');
   });
 
   it ('should have a highlight', function() {
