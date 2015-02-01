@@ -10,10 +10,15 @@ describe ('learning about testing portal', function () {
   });
 
   it ('should have a home link in the top navigation bar', function () {
-    var mainMenu = element(by.css('.navbar-default')),
-        homeLink = mainMenu.element(by.css('.home'));
+    var mainMenu = element(by.css('.navbar-left'));
 
     expect(mainMenu.isPresent()).toBe(true);
-    expect(homeLink.isPresent()).toBe(true);
+    expect(mainMenu.getText()).toEqual('Home');
   });
+
+  it ('should verify the applied theme', function () {
+    var theme = element(by.css('.theme'))
+
+    expect(theme.isPresent()).toBe(true);
+  })
 });

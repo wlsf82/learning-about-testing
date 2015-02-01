@@ -4,5 +4,5 @@
   "application": {
     "name": "Learning About Testing"
   },
-  "extensions": {}
+  "extensions": {"main-menu" : {}}
 }

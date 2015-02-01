@@ -1,0 +1,22 @@
+{
+  "name": "learning-about-testing",
+  "version": "1.0.0",
+  "description": "Learning portal in software testing",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wlsf82/learning-about-testing.git"
+  },
+  "author": "wlsf82",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wlsf82/learning-about-testing/issues"
+  },
+  "homepage": "https://github.com/wlsf82/learning-about-testing"
+}
