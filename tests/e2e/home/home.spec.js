@@ -17,7 +17,7 @@ describe ('Home', function () {
     var highlight = element(by.css('.highlight'));
 
     expect(highlight.isPresent()).toBe(true);
-    expect(highlight.getText()).toContain('Learning About Testing');
+    expect(highlight.getText()).toContain('Here we will teach you');
   });
 
   it ('should have a image in the highlight', function() {
