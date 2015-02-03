@@ -35,5 +35,9 @@ describe ('Media', function () {
 
     mediaLink.click();
     expect(mediaTab.isPresent()).toBe(true);
+    expect(mediaTab.getText()).toContain('Videos');
+    expect(mediaTab.getText()).toContain('Podcasts');
+    expect(mediaTab.getText()).toContain('eBooks and articles');
+    expect(mediaTab.getText()).toContain('Images');
   });
 });
