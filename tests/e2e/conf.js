@@ -7,5 +7,6 @@ exports.config = {
   ],
   capabilities: {
     'browserName': 'chrome'
-  }
+  },
+  baseUrl : 'http://learningabouttesting:3000'
 }

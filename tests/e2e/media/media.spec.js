@@ -5,7 +5,7 @@
 describe ('Media', function () {
 
   it ('should have a media link in the top navigation bar', function () {
-    browser.get('http://learningabouttesting:3000/');
+    browser.get('/');
 
     var mainMenu = element(by.css('.navbar-left'));
 
