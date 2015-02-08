@@ -2,7 +2,7 @@ module.exports = {
   signIn : function (user, password) {
     browser.get('/');
 
-    var signIn = element(by.css('.btn-link'))
+      var signIn = element(by.cssContainingText('.navbar-btn', 'Sign in'))
       , signInTitle = element(by.css('h1'))
       , userInput = element(by.css('#element-sign-in-username'))
       , passwordInput = element(by.css('#element-sign-in-password'))
