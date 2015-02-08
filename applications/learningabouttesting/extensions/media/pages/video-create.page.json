@@ -1,7 +1,7 @@
 {
   "type": "form",
   "title": "Create video",
-  "description": "The create video page.",
+  "description": "Fill the below fields and click save to create your video.",
   "formName": "type-videoContent",
   "path": "/media-video-create"
 }
