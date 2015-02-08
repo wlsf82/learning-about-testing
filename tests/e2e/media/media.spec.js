@@ -46,10 +46,12 @@ describe ('Media', function () {
     expect(mediaTab.getText()).toContain('Images');
   });
 
-  it('should be able to create a media', function () {
+  it('should be able to create a video', function () {
     userHelper.signIn('admin', '!qaz2wsx');
 
-    var createMediaButton = element(by.cssContainingText('.btn-default', 'Create media'));
+    browser.get('/media');
+
+    var createMediaButton = element(by.cssContainingText('.btn-default', 'Create video'));
 
     expect(createMediaButton.isPresent()).toBe(true);
   });
