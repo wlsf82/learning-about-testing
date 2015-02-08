@@ -1,0 +1,22 @@
+{
+  "title": "Video create page",
+  "description": "Video page context.",
+  "weight": -1,
+  "conditions": {
+    "path": [
+      "/media"
+    ],
+    "anonymous" : false
+  },
+  "matchAll": true,
+  "reactions": {
+    "panel": {
+      "page-header": [
+        {
+          "name": "navigation-video",
+          "weight": -1
+        }
+      ]
+    }
+  }
+}

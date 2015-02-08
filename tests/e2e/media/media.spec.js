@@ -2,6 +2,8 @@
 // These are the tests for the Learning About Testing Portal
 // The bellow tests will be used as user acceptance tests
 
+var userHelper = require('../helpers/user.helper');
+
 describe ('Media', function () {
 
   it ('should have a media link in the top navigation bar', function () {
@@ -16,13 +18,16 @@ describe ('Media', function () {
   it ('should open the media page', function () {
     var mainMenu = element(by.css('.navbar-left')),
         mediaLink = mainMenu.element(by.cssContainingText('a', 'Media')),
-        mediaTitle = element(by.css('h1'));
+        mediaTitle = element(by.css('h1'))
+        createVideoButton = element(by.css('.btn-default'));
 
     expect(mediaLink.isPresent()).toBe(true);
     expect(mediaLink.getText()).toEqual('Media');
 
     mediaLink.click();
     browser.driver.sleep(3000);
+
+    expect(createVideoButton.isPresent()).toBe(false);
 
     expect(mediaTitle.isPresent()).toBe(true);
     expect(mediaTitle.getText()).toEqual('Videos');
@@ -42,6 +47,10 @@ describe ('Media', function () {
   });
 
   it('should be able to create a media', function () {
-    
+    userHelper.signIn('admin', '!qaz2wsx');
+
+    var createMediaButton = element(by.cssContainingText('.btn-default', 'Create media'));
+
+    expect(createMediaButton.isPresent()).toBe(true);
   });
 });

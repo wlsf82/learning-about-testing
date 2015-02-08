@@ -1,0 +1,13 @@
+{
+  "title": "Video",
+  "template" : "/templates/btn-group.html",
+  "classes": [
+    "btn-group-sm"
+  ],
+  "items": [
+    {
+      "title": "Create video",
+      "url": "/media-video-create"
+    }
+  ]
+}
