@@ -52,12 +52,12 @@ describe ('Media', function () {
     browser.get('/media');
 
     var createVideoButton = element(by.cssContainingText('.btn-default', 'Create video'))
-      title = element(by.css('h1'));
+      title = element(by.cssContainingText('h1', 'Create video'));
 
     expect(createVideoButton.isPresent()).toBe(true);
 
     createVideoButton.click();
 
-    expect(title.getText()).toBe('Create video');
+    expect(title.isPresent()).toBe(true);
   });
 });
