@@ -51,8 +51,13 @@ describe ('Media', function () {
 
     browser.get('/media');
 
-    var createMediaButton = element(by.cssContainingText('.btn-default', 'Create video'));
+    var createVideoButton = element(by.cssContainingText('.btn-default', 'Create video'))
+      title = element(by.css('h1'));
 
-    expect(createMediaButton.isPresent()).toBe(true);
+    expect(createVideoButton.isPresent()).toBe(true);
+
+    createVideoButton.click();
+
+    expect(title.getText()).toBe('Create video');
   });
 });
