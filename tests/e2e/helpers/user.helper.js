@@ -21,12 +21,16 @@ module.exports = {
   },
 
   signOut : function () {
-    var signOutLink = element(by.cssContainingText('.navbar-btn', 'Sign out'))
-    , signIn = element(by.cssContainingText('.navbar-btn', 'Sign in'));
+    var userMenu = element(by.cssContainingText('.btn-link', 'admin'))
+    , signOut = element(by.cssContainingText('a', 'Sign out'))
+    , signInLink = element(by.cssContainingText('.navbar-btn', 'Sign in'));
 
-    expect(signOutLink.isPresent()).toBe(true);
-    signOutLink.click();
+    expect(userMenu.isPresent()).toBe(true);
+    userMenu.click();
 
-    expect(signIn.isPresent()).toBe(true);
+    expect(signOut.isPresent()).toBe(true);
+    signOut.click();
+
+    expect(signInLink.isPresent()).toBe(true);
   }
 }
