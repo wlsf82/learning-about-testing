@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "start": "node_modules/.bin/choko applications"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wlsf82/learning-about-testing/issues"
   },
-  "homepage": "https://github.com/wlsf82/learning-about-testing"
+  "homepage": "https://github.com/wlsf82/learning-about-testing",
+  "dependencies": {
+    "choko": "0.0.4"
+  }
 }
