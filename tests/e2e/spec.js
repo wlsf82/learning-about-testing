@@ -6,7 +6,9 @@ describe ('learning about testing portal', function () {
 
   it ('should have a title', function () {
     browser.get('/');
-    expect(browser.getTitle()).toEqual('Learning About Testing');
+
+    var title = element(by.cssContainingText('.navbar-brand .ng-scope', 'Learning About Testing'));
+    expect(title.isPresent()).toBe(true);
   });
 
   // it ('should verify the applied theme', function () {

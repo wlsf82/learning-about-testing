@@ -2,7 +2,8 @@
 exports.config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',
   specs: [
-    './authentication/*.spec.js'
+    'spec.js'
+    , './authentication/*.spec.js'
     , './home/*.spec.js'
     , './media/*.spec.js'
   ],
