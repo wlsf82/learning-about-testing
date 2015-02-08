@@ -40,4 +40,8 @@ describe ('Media', function () {
     expect(mediaTab.getText()).toContain('eBooks and articles');
     expect(mediaTab.getText()).toContain('Images');
   });
+
+  it('should be able to create a media', function () {
+    
+  });
 });
