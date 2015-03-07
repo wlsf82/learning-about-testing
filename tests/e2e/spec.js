@@ -21,7 +21,6 @@ describe ('learning about testing portal', function () {
 
   it ('should have a image in the highlight', function() {
     var image = element(by.css('.home .row-highlight'));
-    browser.driver.sleep(3000);
 
     expect(image.isPresent()).toBe(true);
     expect(image.getCssValue('background')).toContain('/images/learning_0.jpg');

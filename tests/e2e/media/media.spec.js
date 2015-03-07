@@ -23,7 +23,6 @@ describe ('Media', function () {
     expect(mediaLink.isPresent()).toBe(true);
 
     mediaLink.click();
-    browser.driver.sleep(3000);
 
     helper.checkTitle('Videos');
   });
