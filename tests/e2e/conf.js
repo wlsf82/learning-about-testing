@@ -4,7 +4,7 @@ exports.config = {
   specs: [
     'spec.js'
     , './authentication/*.spec.js'
-    , './home/*.spec.js'
+    , './about_us/*.spec.js'
     , './media/*.spec.js'
   ],
   capabilities: {

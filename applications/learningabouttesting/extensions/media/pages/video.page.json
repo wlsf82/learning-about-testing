@@ -3,5 +3,5 @@
   "title": "Videos",
   "description": "The videos page.",
   "itemType": "content",
-  "path": "/media"
+  "path": "/media/videos"
 }

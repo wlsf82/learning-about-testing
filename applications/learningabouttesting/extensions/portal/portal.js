@@ -7,7 +7,7 @@ portal.navigation = function (navigations, callback) {
   });
   navigations['main'].items.push({
     "title" : "Media",
-    "url" : "/media"
+    "url" : "/media/videos"
   });
   navigations['main'].items.push({
     "title" : "News",
