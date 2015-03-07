@@ -13,19 +13,19 @@ describe ('About us', function () {
     expect(mainMenu.getText()).toContain('About us');
   });
 
-  it ('should have a highlight', function() {
-    var highlight = element(by.css('.highlight'));
+  it ('should open the about us page', function () {
+    browser.get('/');
 
-    expect(highlight.isPresent()).toBe(true);
-    expect(highlight.getText()).toContain('Here we will teach you');
-  });
+    var mainMenu = element(by.css('.navbar-left'))
+      , aboutUs = mainMenu.element(by.cssContainingText('a', 'About us'))
+      , aboutUsTitle = element(by.cssContainingText('h1', 'About us'))
+      , aboutUsDescription = element(by.css('.html-page'));
 
-  it ('should have a image in the highlight', function() {
-    var image = element(by.css('.home .row-highlight'));
-    browser.driver.sleep(3000);
+      aboutUs.click();
 
-    expect(image.isPresent()).toBe(true);
-    expect(image.getCssValue('background')).toContain('/images/learning_0.jpg');
+    expect(aboutUsTitle.isPresent()).toBe(true);
+    expect(aboutUsDescription.isPresent()).toBe(true);
+    expect(aboutUsDescription.getText()).toContain('The Learning About Testing portal is been created as an experiment');
   });
 
 });
