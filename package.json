@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/wlsf82/learning-about-testing",
   "dependencies": {
-    "choko": "0.0.4"
+    "choko": "recidive/choko#master"
   }
 }
