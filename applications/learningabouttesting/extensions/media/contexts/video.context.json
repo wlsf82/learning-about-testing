@@ -3,10 +3,8 @@
   "description": "Video page context.",
   "weight": -1,
   "conditions": {
-    "path": [
-      "/media/videos"
-    ],
-    "anonymous" : false
+    "path": ["/media/videos"],
+    "anonymous": false
   },
   "matchAll": true,
   "reactions": {
