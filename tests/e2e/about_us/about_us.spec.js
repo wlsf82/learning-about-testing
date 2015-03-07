@@ -2,6 +2,8 @@
 // These are the tests for the Learning About Testing Portal
 // The bellow tests will be used as user acceptance tests
 
+var menuHelper = require('../helpers/menu.helper');
+
 describe ('About us', function () {
 
   it ('should have an about us link in the top navigation bar', function () {
@@ -16,12 +18,10 @@ describe ('About us', function () {
   it ('should open the about us page', function () {
     browser.get('/');
 
-    var mainMenu = element(by.css('.navbar-left'))
-      , aboutUs = mainMenu.element(by.cssContainingText('a', 'About us'))
-      , aboutUsTitle = element(by.cssContainingText('h1', 'About us'))
+    var aboutUsTitle = element(by.cssContainingText('h1', 'About us'))
       , aboutUsDescription = element(by.css('.html-page'));
 
-      aboutUs.click();
+    menuHelper.clickOnMenuItem('About us');
 
     expect(aboutUsTitle.isPresent()).toBe(true);
     expect(aboutUsDescription.isPresent()).toBe(true);
