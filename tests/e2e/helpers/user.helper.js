@@ -21,12 +21,8 @@ module.exports = {
   },
 
   signOut : function () {
-    var userMenu = element(by.cssContainingText('.btn-link', 'admin'))
-    , signOut = element(by.cssContainingText('a', 'Sign out'))
-    , signInLink = element(by.cssContainingText('.navbar-btn', 'Sign in'));
-
-    expect(userMenu.isPresent()).toBe(true);
-    userMenu.click();
+    var signOut = element(by.cssContainingText('a', 'Sign out'))
+      , signInLink = element(by.cssContainingText('.navbar-btn', 'Sign in'));
 
     expect(signOut.isPresent()).toBe(true);
     signOut.click();
