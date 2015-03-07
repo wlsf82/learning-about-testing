@@ -2,12 +2,16 @@ var portal = module.exports;
 
 portal.navigation = function (navigations, callback) {
   navigations['main'].items.push({
-    "title" : "Home",
-    "url" : "/"
+    "title" : "About us",
+    "url" : "/about-us"
   });
   navigations['main'].items.push({
     "title" : "Media",
     "url" : "/media"
+  });
+  navigations['main'].items.push({
+    "title" : "News",
+    "url" : "/news"
   });
   callback();
 }
