@@ -2,7 +2,8 @@
 // These are the tests for the Learning About Testing Portal
 // The bellow tests will be used as user acceptance tests
 
-var userHelper = require('../helpers/user.helper');
+var userHelper = require('../helpers/user.helper')
+  , helper = require('../helpers/helper');
 
 describe ('Media', function () {
 
@@ -17,15 +18,14 @@ describe ('Media', function () {
 
   it ('should open the media page', function () {
     var mainMenu = element(by.cssContainingText('.navbar-left', 'Media')),
-        mediaLink = mainMenu.element(by.cssContainingText('a', 'Media')),
-        mediaTitle = element(by.cssContainingText('h1', 'Videos'));
+        mediaLink = mainMenu.element(by.cssContainingText('a', 'Media'));
 
     expect(mediaLink.isPresent()).toBe(true);
 
     mediaLink.click();
     browser.driver.sleep(3000);
 
-    expect(mediaTitle.isPresent()).toBe(true);
+    helper.checkTitle('Videos');
   });
 
   it ('should have tabs with different types of media into the media page', function () {
@@ -54,13 +54,12 @@ describe ('Media', function () {
 
     browser.get('/#/media/videos');
 
-    var createVideoButton = element(by.cssContainingText('.btn-default', 'Create video'))
-      title = element(by.cssContainingText('h1', 'Create video'));
+    var createVideoButton = element(by.cssContainingText('.btn-default', 'Create video'));
 
     expect(createVideoButton.isPresent()).toBe(true);
 
     createVideoButton.click();
 
-    expect(title.isPresent()).toBe(true);
+    helper.checkTitle('Create video');
   });
 });

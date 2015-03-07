@@ -2,7 +2,7 @@
 // These are the tests for the Learning About Testing Portal
 // The bellow tests will be used as user acceptance tests
 
-var menuHelper = require('../helpers/menu.helper');
+var helper = require('../helpers/helper');
 
 describe ('News', function () {
 
@@ -17,11 +17,9 @@ describe ('News', function () {
   it ('should open the news page', function () {
     browser.get('/');
 
-    var newsTitle = element(by.cssContainingText('h1', 'News'));
+    helper.clickOnMenuItem('News');
 
-    menuHelper.clickOnMenuItem('News');
-
-    expect(newsTitle.isPresent()).toBe(true);
+    helper.checkTitle('News');
   });
 
 });
