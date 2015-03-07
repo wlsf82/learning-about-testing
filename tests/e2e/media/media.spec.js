@@ -41,6 +41,14 @@ describe ('Media', function () {
     expect(mediaTab.getText()).toContain('Images');
   });
 
+  it('should not display create media button on media tabs for anonymous user', function () {
+    browser.get('/#/media/videos');
+
+    var createVideoButton = element(by.cssContainingText('.btn-default', 'Create video'));
+
+    expect(createVideoButton.isPresent()).toBe(false);
+  });
+
   it('should be able to create a video', function () {
     userHelper.signIn('admin', '!qaz2wsx');
 
