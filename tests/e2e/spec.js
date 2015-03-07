@@ -15,7 +15,7 @@ describe ('learning about testing portal', function () {
     var highlight = element(by.css('.highlight'));
 
     expect(highlight.isPresent()).toBe(true);
-    expect(highlight.getText()).toContain('Here we will teach you');
+    expect(highlight.getText()).toContain('Here we will share with you');
   });
 
   it ('should have a image in the highlight', function() {

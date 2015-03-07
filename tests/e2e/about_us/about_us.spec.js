@@ -25,7 +25,7 @@ describe ('About us', function () {
 
     expect(aboutUsTitle.isPresent()).toBe(true);
     expect(aboutUsDescription.isPresent()).toBe(true);
-    expect(aboutUsDescription.getText()).toContain('The Learning About Testing portal is been created as an experiment');
+    expect(aboutUsDescription.getText()).toContain('Learning About Testing portal is an experiment for knowledge sharing');
   });
 
 });
