@@ -1,0 +1,8 @@
+{
+  "title": "About us extension",
+  "description": "About us",
+  "dependencies" : [
+    "context",
+    "page"
+  ]
+}

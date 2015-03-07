@@ -1,0 +1,6 @@
+{
+  "title": "About us",
+  "path": "/about-us",
+  "contentURL": "/content/about_us.md",
+  "template": "/templates/about_us.page.html"
+}

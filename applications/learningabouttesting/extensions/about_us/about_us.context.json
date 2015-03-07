@@ -1,0 +1,11 @@
+{
+  "title" : "About us context",
+  "description" : "About us context",
+  "conditions" : {
+    "path" : ["/about-us"]
+  },
+  "reactions" : {
+    "layout" : "one-column",
+    "panel" : {}
+  }
+}
