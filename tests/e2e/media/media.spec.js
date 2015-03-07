@@ -16,21 +16,16 @@ describe ('Media', function () {
   });
 
   it ('should open the media page', function () {
-    var mainMenu = element(by.css('.navbar-left')),
+    var mainMenu = element(by.cssContainingText('.navbar-left', 'Media')),
         mediaLink = mainMenu.element(by.cssContainingText('a', 'Media')),
-        mediaTitle = element(by.css('h1'))
-        createVideoButton = element(by.css('.btn-default'));
+        mediaTitle = element(by.cssContainingText('h1', 'Videos'));
 
     expect(mediaLink.isPresent()).toBe(true);
-    expect(mediaLink.getText()).toEqual('Media');
 
     mediaLink.click();
     browser.driver.sleep(3000);
 
-    expect(createVideoButton.isPresent()).toBe(false);
-
     expect(mediaTitle.isPresent()).toBe(true);
-    expect(mediaTitle.getText()).toEqual('Videos');
   });
 
   it ('should have tabs with different types of media into the media page', function () {
