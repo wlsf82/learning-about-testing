@@ -1,6 +1,6 @@
 {
   "type": "list",
-  "title": "Audio",
+  "title": "Podcasts",
   "description": "The podcasts page.",
   "itemType": "content",
   "path": "/media/podcasts"
