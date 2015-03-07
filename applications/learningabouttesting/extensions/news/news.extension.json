@@ -1,0 +1,8 @@
+{
+  "title": "News extension",
+  "description": "News",
+  "dependencies" : [
+    "context",
+    "page"
+  ]
+}

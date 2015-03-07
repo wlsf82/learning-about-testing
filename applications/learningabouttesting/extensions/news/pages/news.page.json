@@ -1,0 +1,6 @@
+{
+  "title": "News",
+  "path": "/news",
+  "contentURL": "/content/news.md",
+  "template": "/templates/news.page.html"
+}

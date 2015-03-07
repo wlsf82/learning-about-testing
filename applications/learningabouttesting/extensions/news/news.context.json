@@ -1,0 +1,11 @@
+{
+  "title" : "News context",
+  "description" : "News context",
+  "conditions" : {
+    "path" : ["/news"]
+  },
+  "reactions" : {
+    "layout" : "one-column",
+    "panel" : {}
+  }
+}
