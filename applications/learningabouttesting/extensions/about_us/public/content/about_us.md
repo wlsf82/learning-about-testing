@@ -1,3 +1,1 @@
-The Learning About Testing portal is been created as an experiment for knowledge sharing about software testing techniques, like TDD and automation.
-
-We are not a common learning portal. Here we'll teach you with what we've learned during the years of our experiences.
+<p>Learning About Testing portal is an experiment for knowledge sharing about software testing. We are not a common learning portal, here we'll share you with what we've learned during the years, with: content of real projects, hands-on sessions recorded in hangouts, conversations about software architecture, tools and good practices, and so on.</p>
