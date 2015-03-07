@@ -49,7 +49,7 @@ describe ('Media', function () {
   it('should be able to create a video', function () {
     userHelper.signIn('admin', '!qaz2wsx');
 
-    browser.get('/media');
+    browser.get('/#/media');
 
     var createVideoButton = element(by.cssContainingText('.btn-default', 'Create video'))
       title = element(by.cssContainingText('h1', 'Create video'));
