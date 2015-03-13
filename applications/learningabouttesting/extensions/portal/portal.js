@@ -13,5 +13,9 @@ portal.navigation = function (navigations, callback) {
     "title" : "News",
     "url" : "/news"
   });
+  navigations['main'].items.push({
+    "title" : "Contact",
+    "url" : "/contact"
+  });
   callback();
 }

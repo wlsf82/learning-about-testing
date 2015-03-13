@@ -1,0 +1,6 @@
+{
+  "title": "Contact",
+  "path": "/contact",
+  "contentURL": "/content/contact.md",
+  "template": "/templates/contact.page.html"
+}

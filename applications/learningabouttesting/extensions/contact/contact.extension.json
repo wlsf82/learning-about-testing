@@ -1,0 +1,8 @@
+{
+  "title": "Contact extension",
+  "description": "Contact us",
+  "dependencies" : [
+    "context",
+    "page"
+  ]
+}

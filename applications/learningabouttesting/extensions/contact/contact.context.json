@@ -1,0 +1,11 @@
+{
+  "title" : "Contact context",
+  "description" : "Contact context",
+  "conditions" : {
+    "path" : ["/contact"]
+  },
+  "reactions" : {
+    "layout" : "one-column",
+    "panel" : {}
+  }
+}
