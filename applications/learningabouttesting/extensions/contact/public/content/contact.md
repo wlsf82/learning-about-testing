@@ -1,4 +1,4 @@
-<p>Contact us by our twitter channel <a href="https://twitter.com/learnabouttest">@learningabouttesting</a></p>
+<p>Contact us by our twitter channel <a href="https://twitter.com/learnabouttest">@learnabouttest</a></p>
 <ul>
    <li>Ask anything you want.</li>
    <li>Suggest us new things.</li>
