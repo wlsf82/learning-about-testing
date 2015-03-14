@@ -3,7 +3,6 @@
   "description": "What is happening around about testing?",
   "type": "list",
   "itemType": "news",
-  "path": "/news",
-  "contentURL": "/content/news.md",
-  "template": "/templates/news.item.html"
+  "template": "/templates/list-group.html",
+  "itemTemplate": "/templates/news-list-item.html"
 }

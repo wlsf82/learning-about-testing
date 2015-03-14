@@ -1,0 +1,30 @@
+{
+  "title": "News",
+  "description": "A brand new.",
+  "storage": "database",
+  "fields": {
+    "name": {
+      "title": "Name",
+      "type": "text"
+    },
+    "title": {
+      "title": "Title",
+      "type": "text"
+    },
+    "body": {
+      "title": "Body",
+      "type": "text",
+      "element": {
+        "type": "wysiwyg",
+        "height": 300
+      }
+    }
+  },
+  "access": {
+    "list": true,
+    "load": true,
+    "add": "manage-news",
+    "edit": "manage-news",
+    "delete": "manage-news"
+  }
+}

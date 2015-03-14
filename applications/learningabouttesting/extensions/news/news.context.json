@@ -2,10 +2,10 @@
   "title" : "News context",
   "description" : "News context",
   "conditions" : {
-    "path" : ["/news"]
+    "path" : ["/news", "/news/*"]
   },
   "reactions" : {
-    "layout" : "one-column",
+    "layout" : "two-column",
     "panel" : {}
   }
 }

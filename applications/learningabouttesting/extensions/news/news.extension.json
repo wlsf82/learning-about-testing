@@ -3,6 +3,7 @@
   "description": "News",
   "dependencies" : [
     "context",
-    "page"
+    "page",
+    "panel"
   ]
 }
