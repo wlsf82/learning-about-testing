@@ -48,6 +48,17 @@ describe ('Media', function () {
     expect(createVideoButton.isPresent()).toBe(false);
   });
 
+  it('should navigate through all media tabs', function () {
+    browser.get('/#/media/podcasts');
+    helper.checkTitle('Podcasts');
+
+    browser.get('/#/media/text-files');
+    helper.checkTitle('eBooks and articles');
+
+    browser.get('/#/media/images');
+    helper.checkTitle('Images');
+  });
+
   it('should be able to create a video', function () {
     userHelper.signIn('admin', '!qaz2wsx');
 
