@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "gulp test",
-    "start": "node_modules/.bin/choko applications"
+    "start": "node_modules/.bin/choko applications/learningabouttesting"
   },
   "repository": {
     "type": "git",
