@@ -6,4 +6,4 @@
    <li>And enjoy your journey!</li>
  </ul>
 <br>
-<p>If you don't have a twitter account yet, you may create you own. Click <a href="https://twitter.com/">here</a>.</p>
+<p>If you don't have a twitter account yet, you may create your own. Click <a href="https://twitter.com/">here</a>.</p>
