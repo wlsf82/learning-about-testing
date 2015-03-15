@@ -60,7 +60,11 @@ describe ('Media', function () {
   });
 
   it('should be able to create a video', function () {
-    userHelper.signIn('admin', '!qaz2wsx');
+
+    userHelper.signIn({
+      user: 'admin',
+      password: '!qaz2wsx'
+    });
 
     browser.get('/#/media/videos');
 
