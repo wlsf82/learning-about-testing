@@ -1,7 +1,0 @@
-{
-  "type": "list",
-  "title": "Videos",
-  "description": "The videos page.",
-  "itemType": "content",
-  "path": "/media/videos"
-}

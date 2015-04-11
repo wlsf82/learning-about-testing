@@ -16,5 +16,12 @@
       "type": "url",
       "weight": -10
     }
+  },
+  "access": {
+    "list": "manage-content",
+    "load": "manage-content",
+    "add": "manage-content",
+    "edit": "manage-content",
+    "delete": "manage-content"
   }
 }

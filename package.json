@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "gulp test",
-    "start": "node_modules/.bin/choko applications/learningabouttesting",
+    "start": "node_modules/.bin/choko application",
     "preinstall": "rm -rf ./node_modules/choko",
     "postinstall": "cd ./node_modules/choko && bower install"
   },
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/wlsf82/learning-about-testing",
   "dependencies": {
-    "choko": "recidive/choko#master"
+    "choko": "TallerWebSolutions/choko#taller-merge-master"
   }
 }

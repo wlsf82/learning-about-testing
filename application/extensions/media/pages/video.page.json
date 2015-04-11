@@ -1,0 +1,12 @@
+{
+  "type": "list",
+  "title": "Videos",
+  "description": "The videos page.",
+  "itemType": "content",
+  "path": "/media/videos",
+  "query": {
+    "type": "video"
+  },
+  "listStyle": "list-group",
+  "itemDisplay": "list-group-item"
+}
