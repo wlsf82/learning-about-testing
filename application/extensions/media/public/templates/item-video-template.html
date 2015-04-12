@@ -1,0 +1,15 @@
+<header>
+  <h2>{{item.title}}</h2>
+</header>
+<section class="row">
+  <div class="col-lg-6">
+    <youtube-video
+      video-url="item.video"
+      player-width="'100%'"
+      player-height="'300px'"></youtube-video>
+  </div>
+  <div class="col-lg-6" ng-bind-html="item.body"></div>
+</section>
+<footer>
+  <p>{{item.created | date:'medium'}} | {{item.author}}</p>
+</footer>
