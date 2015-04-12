@@ -1,3 +1,4 @@
 # Dependency Projects #
 #######################
 node_modules
+/application/public/lib/
