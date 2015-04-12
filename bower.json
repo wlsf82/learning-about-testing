@@ -1,0 +1,23 @@
+{
+  "name": "learning-about-testing",
+  "version": "0.0.0",
+  "homepage": "https://github.com/wlsf82/learning-about-testing",
+  "authors": [
+    "Joseph Ramos <joseph.ramos@taller.net.br>"
+  ],
+  "description": "Learning about testing website.",
+  "keywords": [
+    "Choko"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "application/public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-youtube-mb": "~1.0.0"
+  }
+}
