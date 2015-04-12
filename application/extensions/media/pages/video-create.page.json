@@ -2,6 +2,8 @@
   "type": "form",
   "title": "Create video",
   "description": "Fill the below fields and click save to create your video.",
+  "path": "/media-video-create",
+  "itemType": "content",
   "formName": "type-videoContent",
-  "path": "/media-video-create"
+  "redirect": "/media/videos"
 }
