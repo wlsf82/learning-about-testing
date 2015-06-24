@@ -5,7 +5,17 @@
     "path" : ["/contact"]
   },
   "reactions" : {
-    "layout" : "one-column",
-    "panel" : {}
+    "layout" : "two-columns-6-6",
+    "panel" : {
+      "sidebar" : [{
+        "name" : "contact",
+        "weight" : 0
+      }]
+    },
+    "addCSS": {
+      "styles": [
+        "/css/style.css"
+      ]
+    }
   }
 }

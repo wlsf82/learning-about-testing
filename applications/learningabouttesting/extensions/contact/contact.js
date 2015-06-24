@@ -1,9 +1,19 @@
 var contact = module.exports;
 
 /**
- * The page() hook.
+ * The route() hook.
  */
- contact.page = function(pages, callback) {
+ contact.route = function(routes, callback) {
 
-  callback();
+   var newRoutes = {};
+   var application = this.application;
+
+   newRoutes['/contact/submit'] = {
+      access: true,
+      callback: function(request, response, callback) {
+        request.flash('info', 'Flash is back!');
+      }
+    };
+
+    callback(null, newRoutes);
 };
