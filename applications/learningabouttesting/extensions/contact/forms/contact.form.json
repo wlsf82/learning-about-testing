@@ -1,0 +1,34 @@
+{
+    "title": "Contact",
+    "description": "Talk to us",
+    "elements": [
+        {
+            "name": "name",
+            "title": "Your name",
+            "type": "text",
+            "required": true,
+            "weight": -5
+        },
+        {
+            "name": "email",
+            "title": "Your email address",
+            "type": "email",
+            "required": true,
+            "weight": -4
+        },
+        {
+            "name": "message",
+            "title": "Your message",
+            "type": "textarea",
+            "required": true,
+            "weight": -3
+        },
+        {
+            "name": "submit",
+            "title": "Send",
+            "type": "submit",
+            "url": "/contact/submit",
+            "weight": 15
+        }
+    ]
+}

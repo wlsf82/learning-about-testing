@@ -1,0 +1,6 @@
+{
+  "title": "Contact Info",
+  "contentURL": "/content/contact.md",
+  "template": "/templates/contact.panel.html",
+  "bare": true
+  }
