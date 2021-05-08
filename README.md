@@ -1,4 +1,7 @@
 # learning-about-testing
+
+⚠️ **This project has been deprecated.** ⚠️
+
 Learning About Testing Portal
 
 This project is about a learning portal in software testing.
